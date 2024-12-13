@@ -4,7 +4,7 @@ import { AI } from '@/app/actions'
 import { redirect } from 'next/navigation'
 
 export const maxDuration = 60
-
+export const runtime = 'edge'
 export default function Page({
   searchParams
 }: {

@@ -4,7 +4,7 @@ import { getChat } from '@/lib/actions/chat'
 import { AI } from '@/app/actions'
 
 export const maxDuration = 60
-
+export const runtime = 'edge'
 export interface SearchPageProps {
   params: {
     id: string
